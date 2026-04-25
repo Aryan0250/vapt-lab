@@ -8,18 +8,18 @@
 
 | File | Experiment |
 |------|-----------|
-| `exp1_whois.sh` | WHOIS Lookup |
-| `exp2_dig.sh` | DIG (DNS Queries) |
-| `exp3_theharvester.sh` | theHarvester OSINT |
-| `exp4_passive_recon.sh` | Passive Recon on testphp.vulnweb.com |
-| `exp5_google_dorking.sh` | Google Dorking |
-| `exp6_nmap.sh` | Nmap Network Scanning |
-| `exp7_angryip.sh` | Angry IP Scanner |
-| `exp8_ftk_imager.sh` | FTK Imager (Disk Imaging) |
-| `exp9_autopsy.sh` | Autopsy (Forensic Analysis) |
-| `exp10_crunch.sh` | Crunch Wordlist Generator |
-| `exp11_wireshark.sh` | Wireshark HTTP vs HTTPS |
-| `exp12_trojan.sh` | Trojan Creation (Metasploit) |
+| `exp1.sh` | WHOIS Lookup |
+| `exp2.sh` | DIG (DNS Queries) |
+| `exp3.sh` | theHarvester OSINT |
+| `exp4.sh` | Passive Recon on testphp.vulnweb.com |
+| `exp5.sh` | Google Dorking |
+| `exp6.sh` | Nmap Network Scanning |
+| `exp7.sh` | Angry IP Scanner |
+| `exp8.sh` | FTK Imager (Disk Imaging) |
+| `exp9.sh` | Autopsy (Forensic Analysis) |
+| `exp10.sh` | Crunch Wordlist Generator |
+| `exp11.sh` | Wireshark HTTP vs HTTPS |
+| `exp12.sh` | Trojan Creation (Metasploit) |
 | `run_vapt.sh` | Master launcher (runs any exp by number) |
 
 ---
