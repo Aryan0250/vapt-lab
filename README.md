@@ -28,13 +28,13 @@
 
 ### Option A — Run directly from GitHub (needs internet)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/vapt-lab/main/exp1_whois.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Aryan0205/vapt-lab/main/exp1.sh | bash
 ```
-Replace `exp1_whois.sh` with whichever experiment you need.
+Replace `exp1.sh` with whichever experiment you need.
 
 ### Option B — Clone repo first (LAN or internet), then run locally
 ```bash
-git clone https://github.com/YOUR_USERNAME/vapt-lab.git
+git clone https://github.com/Aryan0205/vapt-lab.git
 cd vapt-lab
 chmod +x *.sh
 bash exp1_whois.sh        # Run experiment 1
@@ -44,7 +44,7 @@ bash run_vapt.sh 6        # Run experiment 6 (Nmap)
 
 ### Option C — One-liner with master launcher
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/vapt-lab/main/run_vapt.sh) 6
+bash <(curl -fsSL https://raw.githubusercontent.com/Aryan0205/vapt-lab/main/run_vapt.sh) 6
 ```
 
 ---
@@ -64,7 +64,7 @@ Or set up a local HTTP server from your laptop on the same LAN:
 python3 -m http.server 8080
 
 # On college PC terminal:
-curl http://YOUR_LAPTOP_IP:8080/exp6_nmap.sh | bash
+curl http://YOUR_LAPTOP_IP:8080/exp6.sh | bash
 ```
 
 ---
