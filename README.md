@@ -28,7 +28,7 @@
 
 ### Option A — Run directly from GitHub (needs internet)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Aryan0205/vapt-lab/main/exp1.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Aryan0250/vapt-lab/main/exp1.sh | bash
 ```
 Replace `exp1.sh` with whichever experiment you need.
 
@@ -44,7 +44,7 @@ bash run_vapt.sh 6        # Run experiment 6 (Nmap)
 
 ### Option C — One-liner with master launcher
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/Aryan0205/vapt-lab/main/run_vapt.sh) 6
+bash <(curl -fsSL https://raw.githubusercontent.com/Aryan0250/vapt-lab/main/run_vapt.sh) 6
 ```
 
 ---
