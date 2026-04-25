@@ -5,7 +5,7 @@
 #  Example: bash run_vapt.sh 1
 # ============================================================
 
-BASE_URL="https://raw.githubusercontent.com/YOUR_USERNAME/vapt-lab/main"
+BASE_URL="https://raw.githubusercontent.com/Aryan0250/vapt-lab/main"
 
 SCRIPTS=(
     ""
